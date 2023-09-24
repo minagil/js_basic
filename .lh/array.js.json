@@ -1,0 +1,106 @@
+{
+    "sourceFile": "array.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 22,
+            "patches": [
+                {
+                    "date": 1695539614009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1695539622958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-// \n\\ No newline at end of file\n+// 3. looping over an array\r\n"
+                },
+                {
+                    "date": 1695539631634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n // 3. looping over an array\r\n+// print all fruits\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539638413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n // 3. looping over an array\r\n-// print all fruits\n\\ No newline at end of file\n+// print all fruits\r\n+//\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539645976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n // 3. looping over an array\r\n // print all fruits\r\n-//\n\\ No newline at end of file\n+//a. for\r\n+for(let i = 0;)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539656540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-for(let i = 0;)\n\\ No newline at end of file\n+for(let i = 0; i< fruits.length; i)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539662951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-for(let i = 0; i< fruits.length; i)\n\\ No newline at end of file\n+for(let i = 0; i< fruits.length; i++){\r\n+  console.log(fr)\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539670843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n for(let i = 0; i< fruits.length; i++){\r\n-  console.log(fr)\r\n+  console.log(fruits[i])\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539706418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n+const fruits = \"🍎, 🥝, 🍌, 🍒\";\r\n for(let i = 0; i< fruits.length; i++){\r\n   console.log(fruits[i])\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539749569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-const fruits = \"🍎, 🥝, 🍌, 🍒\";\r\n-for(let i = 0; i< fruits.length; i++){\r\n-  console.log(fruits[i])\r\n-}\n\\ No newline at end of file\n+const fruits = [];\r\n+for (let i = 0; i < fruits.length; i++) {\r\n+\tconsole.log(fruits[i]);\r\n+}\r\n"
+                },
+                {
+                    "date": 1695539755588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-const fruits = [];\r\n+const fruits = ['🍎', 🥝, 🍌, 🍒];\r\n for (let i = 0; i < fruits.length; i++) {\r\n \tconsole.log(fruits[i]);\r\n }\r\n"
+                },
+                {
+                    "date": 1695539760893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-const fruits = ['🍎', 🥝, 🍌, 🍒];\r\n+const fruits = ['🍎', '🥝', '🍌', 🍒];\r\n for (let i = 0; i < fruits.length; i++) {\r\n \tconsole.log(fruits[i]);\r\n }\r\n"
+                },
+                {
+                    "date": 1695539803455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n // 3. looping over an array\r\n // print all fruits\r\n //a. for\r\n-const fruits = ['🍎', '🥝', '🍌', 🍒];\r\n+const fruits = [\"🍎\", \"🥝\", \"🍌\", \"🍒\"];\r\n for (let i = 0; i < fruits.length; i++) {\r\n \tconsole.log(fruits[i]);\r\n }\r\n+\r\n+// \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539809400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n for (let i = 0; i < fruits.length; i++) {\r\n \tconsole.log(fruits[i]);\r\n }\r\n \r\n-// \n\\ No newline at end of file\n+// b. for of\r\n+for(let f)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539815408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n \tconsole.log(fruits[i]);\r\n }\r\n \r\n // b. for of\r\n-for(let f)\n\\ No newline at end of file\n+for(let fruit of fruits)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539821386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n \tconsole.log(fruits[i]);\r\n }\r\n \r\n // b. for of\r\n-for(let fruit of fruits)\n\\ No newline at end of file\n+for(let fruit of fruits){\r\n+  console.log(fruit)\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695539842715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,10 @@\n \tconsole.log(fruits[i]);\r\n }\r\n \r\n // b. for of\r\n-for(let fruit of fruits){\r\n-  console.log(fruit)\r\n-}\n\\ No newline at end of file\n+for (let fruit of fruits) {\r\n+\tconsole.log(fruit);\r\n+}\r\n+\r\n+//c. forEach\r\n+fruits.forEach\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540039432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n \tconsole.log(fruit);\r\n }\r\n \r\n //c. forEach\r\n-fruits.forEach\n\\ No newline at end of file\n+fruits.forEach(function())\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540045855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,7 @@\n \tconsole.log(fruit);\r\n }\r\n \r\n //c. forEach\r\n-fruits.forEach(function())\n\\ No newline at end of file\n+fruits.forEach(function(){\r\n+  \r\n+})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540062219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \tconsole.log(fruit);\r\n }\r\n \r\n //c. forEach\r\n-fruits.forEach(function(){\r\n-  \r\n+fruits.forEach(function(fr){\r\n+\r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540069749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n \tconsole.log(fruit);\r\n }\r\n \r\n //c. forEach\r\n-fruits.forEach(function(fr){\r\n+fruits.forEach(function(fruit, index, array){\r\n \r\n })\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540077487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n }\r\n \r\n //c. forEach\r\n fruits.forEach(function(fruit, index, array){\r\n-\r\n+console.log(fruit)\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1695540089064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n }\r\n \r\n //c. forEach\r\n fruits.forEach(function (fruit, index, array) {\r\n-\tconsole.log(fruit);\r\n+\tconsole.log(fruit,index,array);\r\n });\r\n"
+                }
+            ],
+            "date": 1695539614008,
+            "name": "Commit-0",
+            "content": "// "
+        }
+    ]
+}

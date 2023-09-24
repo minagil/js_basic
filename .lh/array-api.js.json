@@ -1,0 +1,30 @@
+{
+    "sourceFile": "array-api.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1695542242543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1695542261077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n // Q1. make a string out of an array\r\n+{\r\n+  const fruits = [\"apple\", \"banana\", \"orange\"];\r\n+  console.log(fruits.join())\r\n+}\r\n"
+                },
+                {
+                    "date": 1695542270605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Q1. make a string out of an array\r\n {\r\n \tconst fruits = [\"apple\", \"banana\", \"orange\"];\r\n-\tconsole.log(fruits.join());\r\n+\tconsole.log(fruits.join(','));\r\n }\r\n"
+                },
+                {
+                    "date": 1695542316112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // Q1. make a string out of an array\r\n {\r\n \tconst fruits = [\"apple\", \"banana\", \"orange\"];\r\n-\tconsole.log(fruits.join(\",\"));\r\n+\tconsole.log(fruits.join(\"|\"));\r\n }\r\n"
+                }
+            ],
+            "date": 1695542242543,
+            "name": "Commit-0",
+            "content": "// Q1. make a string out of an array\r\n"
+        }
+    ]
+}
